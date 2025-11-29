@@ -4,110 +4,228 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Midnight Coder Hub</title>
-    <link rel="stylesheet" href="home.css">
+    <title> Stranger Things</title>
+    <style>
+        *{  
+            margin: 7px;
+            
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: black;
+        }
+        .hdr{
+            
+            margin: 3px;
+            padding: 1px;
+            background-image: url("/theprojectdev/background2.jpg");
+            padding: 2% ;
+            background-size: auto;
+            background-position: center;
+            border-radius: 20px;
+    
+        }
+        h1{
+            font-size: 60px;
+            text-align: center;
+        }
+       nav{
+           position: relative;
+           font-size: small;
+           border: solid grey;
+           border-radius: 10px;
+           text-align: left;
+           }
+         
+       #nv {
+        text-decoration: none;
+       }
+       button{
+        font-size:18px ;
+        padding: 10px 10px;
+        font-weight: bolder;
+        border-radius: 20px;
+       }
+       #dnld{
+        background-color: rgb(56, 248, 56);
+        border: solid lightgreen;
+       }
+       #video{
+        background-color: rgb(248, 56, 56);
+        border: solid rgb(252, 220, 145)
+       }
+       #know{
+        font-size: 10px;
+        padding: 6px 6px;
+        background-color: rgb(149, 56, 248);
+        border: solid rgb(200, 200, 242)
+       }
+       #more{
+        text-align: right;
+        text-decoration: none;
+       }
+       .donate{
+        padding: 5px;
+        text-align: center;
+       }
+       #dnt{
+        text-decoration: none;
+        color: blue;
+       }
+       .img{
+        text-align: center;
+       }
+       #copyr{
+        text-align: center;
+        font-size: small;
+       }
+       #tc{
+        text-align: center;
+        text-decoration: solid;
+        color: rgb(0, 106, 255);
+       }
+       #design{
+        text-align: center;
+       }
+       #dev{
+        text-decoration: solid;
+        color: red;
+       }
+    </style>
 </head>
 <body>
-<header class="hdr">
-   
-    <h1>Midnight Coder Hub</h1>
-    
-</header>
-<nav class="nav">
-    <a id="nv" href="#">Home</a>
-    <a id="nv" href="#">Categorys</a>
-    <a id="nv" href="#">Booking</a>
-    <a id="nv" href="#">Support Us</a>
-</nav>
-<div class="main">
-    <div>
-        <h2>Recent Notes</h2>
-        <div>
-            <img src="logo/python.png" alt="#" width="20%">
-            
-            <h3>Python Notes</h3>
-            <p>Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation via the off-side rule.
-
-Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming. It is often described as a "batteries included" language due to its comprehensive standard library.<button id="know"><a  id="view1"  href="#" target="_blank"> Know More </a> </button></p>
-            
-            <button id="dnld"><a id="view1"   href="python/python notes.html" target="_blank"> View Notes</a> </button>
-            <button id="video"><a  id="view1"  href="#" target="_blank">Watch Video Tutorial</a></button>
-        </div>
-        <div>
-            <img src="logo/html.png" alt="#" width="20%">
-            
-            <h3>HTML Notes</h3>
-            <p>The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
-
-                Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for its appearance.  <button id="know"><a  id="view1"  href="#" target="_blank"> Know More </a> </button></p>
-            
-            <button id="dnld"><a  id="view1"  href="#" target="_blank"> View Notes</a> </button>
-            <button id="video"><a  id="view1" href="#" target="_blank">Watch Video Tutorial</a></button>
-        </div>
-        <div>
-            <img src="logo/css.png" alt="#" width="20%">
-            
-            <h3>CSS Notes</h3>
-            <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML).[1] CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
-
-                CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts.[3] This separation can improve content accessibility; provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting.<button id="know"><a  id="view1"  href="#" target="_blank"> Know More </a> </button></p>
-            
-            <button id="dnld"><a  id="view1"  href="#" target="_blank"> View Notes</a> </button>
-            <button id="video"><a id="view1"  href="#" target="_blank">Watch Video Tutorial</a></button>
-        </div>
-    </div>
-
-    <div>
-        <h2>Recent News</h2>
-        <div>
-            <img src="web dev/news/Rewards.png" alt="#" width="20%">
-            <button id="video"><a id="view1"  href="#" target="_blank">Watch Video Tutorial</a></button>
-            <h3> Microsoft Rewards</h3>
-            <p>Earn rewards for yourself or donations to causes of your choice just by searching, shopping, and gaming with Microsoft. It’s a free and fun way to reward yourself and make a difference</p>
-            <button id="know"><a  id="view1"  href="#" target="_blank"> Know More </a> </button>
-        </div>
-        <div>
-            <img src="web dev/news/chatgpt.png" alt="#" width="20%">
-            <button id="video"><a id="view1"  href="#" target="_blank">Watch Video Tutorial</a></button>
-            <h3>ChatGPT</h3>
-            <p>Chat Generative Pre-trained Transformer
-                ChatGPT is an intelligent chatbot that helps automate chat tasks. Its name is the acronym for Chat Generative Pre-trained Transformer.</p>
-            <button id="know"><a  id="view1"  href="#" target="_blank"> Know More </a> </button>
-        </div>
-        <div id="more" >
-            <a id="more" href="#">Viwe More News</a>
-        </div>
-        <div>
-            Join Our Teligram Group
-            <button id="know"><a  href="#" target="_blank"> Join </a> </button>
-        </div>
-    </div>
-    
-    
-</div>
-<div class="donate">
-    <p>Like Our Work? <a id="dnt" href="#">Donate us ❤️</a></p>
-</div>
-<div style="text-align: center;">
-    <footer class="ftr">
-        <div class="img">
-           <a href="https://https://t.me/webdev51yt"> <img src="logo/telegram logo.png" alt="teligram" width="30px"></a>
-            <img src="logo/github logo.png" alt="github" width="38px">
-            <img src="logo/youtube logo.png" alt="youtube" width="46px">
-        </div>
+    <header class="hdr">
        
-    <div>
-        <a id="copyr"> Copyright &copy; 2023 WebDev. All rights reserved.
-            Made with ❤️ by Dev Kumar Ghosh</a>
+        <h1>Stranger Things</h1>
+        
+    </header>
+    <nav class="nav">
+        <h2>BluRay 1080p Hindi English DD 5.1 (VLC Media Player recommended)</h2>
+    </nav>
+    <div class="main">
+        <div>
+            <h2></h2>
+            <div>
+                <img src="/img/s1.png" alt="#" width="20%">
+                <h3>Season 1</h3>
+                <button id="video"><a style="text-decoration: none;" href="https://cdn.video-leech.pro/7085953999b99a2056fc20197f00eee8c8b0f787dfe9bca900711431d9991f6b667b1fd5d08386a7fea7083b55e4fdca7db2ac99be8030af769c471890e67eab48cc435ba8e9d038b93dca0ed84c95b070ea00f01892d2409294412053ca81afe4cd8ffb6bca5de0cd6e9522c3022e9a::0ec72bcc6dbadc7012b50f1646ee0584" target="_blank">Episode 1</a></button>
+                <button id="video"><a style="text-decoration: none;" href="https://cdn.video-leech.pro/9022d28c7ce17e1fd52e1ee595567760e1d82f303d7f2f8865951533fe098c80111f3910356a371dd9b45b862d4cfb2b31aac2ee0604e1952713b9cf8df6cf08e5997d24caaf1f9454c40c654036d7c670c0d74f55ebd4945b9f5ef932032cd1a03c1d3d52141aca64080e32dc53271d::153b7392d0e652bd99ae3d44b7a0b072" target="_blank">Episode 2</a></button>
+                <button id="video"><a style="text-decoration: none;" href="https://cdn.video-leech.pro/c118dc82794618ab94c16246b29d62d12ce19b2f3c231d25a848849c46a4896921a7381720ff6427afd608beb28744d49442f2d8e0b40b9d4da27a1bdc1250ff55344e8626d04e6687385c069d1ce3e610571f6942355a993968ff891e74350b0c3dd8423298582bdf9a4664afa0fc3a::c8e67e8af3a79099091ed0c479450c67" target="_blank">Episode 3</a></button>
+                <button id="video"><a style="text-decoration: none;" href="https://cdn.video-leech.pro/d198f583654e49e24e9bed94784c6569088ce3d9a92a8c920aee500670de1f7298bafc891ce6dacbbdab37c2c1d12f9592811d9a9ee7242dfd63c10a96507f326e3fff7b2b6910c49dc4355c2dd34c92e08e4fe22d2f04cda9def7fe826103118224a36c2bc68ed98dd5ebd1d1ce3660::f5d81a221d345bafd0967bc74e7689c5" target="_blank">Episode 4</a></button>
+                <button id="video"><a style="text-decoration: none;" href="https://cdn.video-leech.pro/ab9d8195c70aca7bb040c65a4ce8fb4a758e43bb6fc1b06c288781c17ebc27311a7f3fa5a06a7e22dc533a96622bdd2013caf0c30173ab471cf9181dc643878253b5c48ec2fda0d668d752cef26239ea65b5d88e49e6d27dc83a0bd0dec850df182269f54fb0d0e5280b5e41addf67bc::b2b8a845a6265c366c654807a11d2091" target="_blank">Episode 5</a></button>
+                <button id="video"><a style="text-decoration: none;" href="https://cdn.video-leech.pro/c39a91295c6eefc1e666710e02561ae654a2890e4fb54a78d253864fe7d2829946c360335ce4a01defa2e62b8af09818c6ffc00e3f69092f7bf18841ac10b0b27a8647884628108a3992ae873a655ee013f2688864872db4a48351e4eb2e4ced15f9c3cb60ff1b227d3f09733c8a7e68::cad735540e62596b7a5283d1a23b3c12" target="_blank">Episode 6</a></button>
+                <button id="video"><a style="text-decoration: none;" href="https://cdn.video-leech.pro/f66309d8ee2e5b35e50c307752f494cce8172d83ce8a32972cf93d9ad99b7796065c856f3da8dcf6e38ed01ccd5a6c2b54d76c0d13810b3fc817fb5393fa29be492d6eb94f14208626d4314117ec0b35b42f98329f19fb01a9286f3e5b52ce4412a059215278843ee8fa36a8303cab74::652527176169d13742517c06a5f5fbfc" target="_blank">Episode 7</a></button>
+                <button id="video"><a style="text-decoration: none;" href="https://cdn.video-leech.pro/47be4a04349578b2c32790b02d63d456fdf5e69a34305e472bf17bd43a7f4fecac0a78af1cd056399d6b500023200fa4cb38849fe33ddaa653a9c5c864c0114703548154740a94c066571972e92838ce7a24e02349496519659b82e89e867195bc44649bad875eb6fca02d9418ab23db::92769e3205188bf1c62c34ca2ede2f71" target="_blank">Episode 8</a></button>
+                <button id="video"><a style="text-decoration: none;" href="https://driveseed.org/zfile/3RFF5YHfjFNvGAkSKH1U" target="_blank">All ZIP</a></button>
+                
+                
+            </div>
+            
+        </p> 
+       
+        <div>
+            <h2></h2>
+            <div>
+                <img src="/img/s2.png" alt="#" width="20%">
+                <h3>Season 2</h3>
+                <button id="video"><a style="text-decoration: none;" href="https://cdn.video-leech.pro/0f127b01b33d414754300e9772e463c583f988d0410afe9e09122cd13f2c89e2199a569a043c457e7f7c4887e12c7095db8d50b47e8845acdc7827688cee0f3ccd24b571a34c90ee453fc9efc688de5b8e358b1f6a0bc3d684ada4e473c71cd1727408a814857f1e7935ead712142231::e51f8b9cf05748ad6a0f14f9d3ba0e48" target="_blank">Episode 1</a></button>
+                <button id="video"><a style="text-decoration: none;" href="https://cdn.video-leech.pro/6c81de94e8c3c5ac5a26b643536babeae4adbc7a31358c046b66d68311581ffb67d9b94f7ae67c0500093551783bd2beb145fee735779d147469d21b83c3f2ec3d03122269d1da55ba56507c80c8a6d066e0fcd332b484645db26fd4c36b3fc45dcfe23db45bddbe4c0ad1ff6ed338fb::00cc31c72dc6c2e1796d4fe54f9d5f1f" target="_blank">Episode 2</a></button>
+                <button id="video"><a style="text-decoration: none;" href="https://cdn.video-leech.pro/1c0d837d07013e6cc147f49f7bf99a72d90db2234dd1b89b23a5c0c5d54739b6d5eceab62b58086405225094eacf709b692a060f182db3f6621dbe56c0f26198ddc881543dadd02d95eb54a04c8ad43c8ad9c64cde92f380b090c85e6a75f74f3740e961289b470d57f16d8a783a5052::033b442c6f43ef264c01f615d021efcd" target="_blank">Episode 3</a></button>
+                <button id="video"><a style="text-decoration: none;" href="https://cdn.video-leech.pro/3262caa9b8a021c32b1bf06a6ea441e006571eb1b0d241b260a423a37a0b6fbc7f348c198e37b460f448e874a2623706b89a5ffa3449ff16cd1a8db87a142d33e6de1be78a7f6cac8e9652a1c7ee24c11b0f319255ecea5d78a5d7bdbbb188ae147c14520e93876dc98d3a3c7ba5d57b::7c3737924f805d315c75d7611c141722" target="_blank">Episode 4</a></button>
+                <button id="video"><a style="text-decoration: none;" href="https://cdn.video-leech.pro/09abf6cc5f2226f745ca84f33cc98083e24401a27e7b69766633928d5e30c4f4d0a16f88a0ac5217cf6c661502b1eb071e97d8a14fc87a291902ca7b8d423e12137483a66a4eef207e5081cecab70c8e0967dc4e2ce09fee735467d251b0b80b9661760d957e0dd7c5114ec96e996624::814318626b3e44c74349624c24ab707e" target="_blank">Episode 5</a></button>
+                <button id="video"><a style="text-decoration: none;" href="https://cdn.video-leech.pro/4a6881c606d89f66ccd0da0df7ae41d15649c48a384f65c4d7e900b6edacdc1df1d1b48de742bc43e8c3e90e550a228d0e5395e3438ee9c40debf72b9101ed7132f1f937d6ee1ed1f5805a5c007eeceb4b9e15093a01bef6b0bc2ef8f753d408125781ef0a6ece8c82e5af6283cf4012::a9e26a1fb0c46580f903f49750922a92" target="_blank">Episode 6</a></button>
+                <button id="video"><a style="text-decoration: none;" href="https://cdn.video-leech.pro/71b6981a85a99ee80cea8aee2845a2a8b477269c2c4c51d293494bc6ccef2454f78f92c4f380975d09e5c2e0064c0ec4bc8df6c00c08bd32e58557179fe62169bc1e4415dae4cd2fd91ee59804f79b5f9a5ed385998ba147bc32155d22598d80385e4124b4ac33a6480de1a611ebaf73::3960840f3f2440229f5b0b3ac7f0c49d" target="_blank">Episode 7</a></button>
+                <button id="video"><a style="text-decoration: none;" href="https://cdn.video-leech.pro/6b1dc4414580a3e735dd350b28f10213a41a23cfb3ae018230269494e50f39bc4685293d117d5de0dc4843578cbf68c88a05ca1e0266ee70a9986de4575562dc0145007dca330c26dd9cee8669c8c7672d2bf5936a48170caa8a5310914288ca4df1600970fc2c6275896a6bc183710a::e9a4d23d5159fbd482c2a795fc6a6228" target="_blank">Episode 8</a></button>
+                <button id="video"><a style="text-decoration: none;" href="https://cdn.video-leech.pro/a1cb199f19df9aa923b850e94fef7b9d256224604673bfa80b6ca627e1ca86751abfc209d4047f92db20de0e29df4935906ecaa25bbcb2f26047d064f1e7a21095f085990c873bd3d2e21b2370519921b4b05e46578c15ce2e8bf2eebe669233dda7285c40e26cf2772bfd28e6b534d0::923bcc34f94196b26f5b81ad1ccfa3ad" target="_blank">Episode 9</a></button>
+                <button id="video"><a style="text-decoration: none;" href="https://driveseed.org/zfile/MVn8uzj3W0tv7JwI2QkK" target="_blank">All ZIP</a></button>
+                
+                
+            </div>
+            
+        </p> 
+       
+        <div>
+            <h2></h2>
+            <div>
+                <img src="/img/s3.png" alt="#" width="20%">
+                <h3>Season 3</h3>
+                <button id="video"><a style="text-decoration: none;" href="https://cdn.video-leech.pro/1a68b18eaa9aebf7568870246b2945e07381d364dbd0fb1a98beec89430206cb8b9b39cca4855d30fab17914abfb80bb82b3b23df83c662ac3d25c5fcbfe4f096f0892ff24f97de78cb92c7c0ae1637f41c1791189f426565976347c5b343898aec686b049769be711671aa84379700e::a206c758492e6607a60650ad31972732" target="_blank">Episode 1</a></button>
+                <button id="video"><a style="text-decoration: none;" href="https://cdn.video-leech.pro/83b57b7e402f1a79629fe4c772bb82789435c9e98cf652a0bfe0fcc71e7a41ae5857efd000a0f3f7720a87e86b6bbddff788587badef489b9bea6810f60d9def8753bf4522341c674427f456e7be89980e8c8ee9de8a4b7bb7842a1d5f3b3cd832e678fc421621454c6e5e76692911cc::61d4cfd468372fa7fbf5e6b1094b856f" target="_blank">Episode 2</a></button>
+                <button id="video"><a style="text-decoration: none;" href="https://cdn.video-leech.pro/03ff027a5b404c6fbce798b0e14e5f96e976a509db7fb5287f20f92ec626fe813f16b49d9b82c595c16dbdd1e72d39428e86661c2ddd4565fbd48ee14b5898a26a8185744f66266d423ec51fd74cdb4e019217192b5a3733d292c9574ed6daf1fe7863c21161d286d62dbdbe07342fbe::23f9161b800e3d0589de5a3421cbb39d" target="_blank">Episode 3</a></button>
+                <button id="video"><a style="text-decoration: none;" href="https://cdn.video-leech.pro/ae66ecdf8ebd81e1aea03a5c6c181380547185c0916be731026d27b63dfd248aadf8bd05c4d54c40be7672efede4885701947cd44e8cda8016addc0a515e72a4aa56d094878d85d382eaf1129cff5c3d922bb9b121b971f6c435b16d24765356ecc3e3fca973a60f3621e9ab4243a12a::016aeed8c16a21183d7864f759c4d382" target="_blank">Episode 4</a></button>
+                <button id="video"><a style="text-decoration: none;" href="https://cdn.video-leech.pro/1503355b2947da6bb0dd16e56ecab76c9cd3856012090e38f66224efcdc44dca234ce5bcc291cec766a2ac938ad8bb9e0ca84ac527f1679d4dc45709ad55caa9c2e123854f48d5660ac633ae4907c5b549eb62732f6e95328d48130198d78926defc8a29b5ee0c580c4ade2aa4b17279::14c2012a6fb191479ca76773b3d28a3a" target="_blank">Episode 5</a></button>
+                <button id="video"><a style="text-decoration: none;" href="https://cdn.video-leech.pro/7e896bcb85c5f8d67105c29a07b63628c667fe5de1538ae62cdbec46ebd74278d45aed5812e0f8bc6ecb30a6887f8faefca29e9edd004c2bbee6e10971195c0a5a89b321150fd5ac953d157f42c42984a35644d6ad0ed1dfbf7ebbaa679cff673752ccbe87ff83c2ac4def8bec643647::3ff175a5aff0c29a4a8822ba8e6941b6" target="_blank">Episode 6</a></button>
+                <button id="video"><a style="text-decoration: none;" href="https://cdn.video-leech.pro/b7b81b1985b090f6790eced086f3a4dbbec99054ebb823b23521c28fd7923dbc224441bf5be081820ff1a07ce41c27df64b774aaa4c80d00989df8693e8b1cd5ac7404ab362413ba187c0724d1f9112cacf94bbb2aa1c211ba9bb123ab8363a7808420ae311e05114a8b973c8d424f4c::89c7bd459e0a999e28f143bad99c2780" target="_blank">Episode 7</a></button>
+                <button id="video"><a style="text-decoration: none;" href="https://cdn.video-leech.pro/d412c5622692c0955dd8c96a5314ed99010cc951d925f16d66bab2fab40277fbf1dafc824cb03c0bacb7405a695ff399299859e93035e0cc162fb85ff30306b6ad3a38ef9f9853ba3ff4c48b1408ea70663e98db4d1509a875b044c4d9bf08efa66abcd45a6ad133a0d7ba8ef9dc68fd::b51712057dbedf40099ac986d965cfc1" target="_blank">Episode 8</a></button>
+                <button id="video"><a style="text-decoration: none;" href="#" target="_blank">All ZIP</a></button>
+                
+                
+            </div>
+            
+        </p> 
+       
+        <div>
+            <h2></h2>
+            <div>
+                <img src="/img/s4.png" alt="#" width="20%">
+                <h3>Season 4</h3>
+                <button id="video"><a style="text-decoration: none;" href="https://cdn.video-leech.pro/b20839a41e97ee8a7ecc8c9205e9308c9e22ee9e2e76446e0b6f407de9e723114f1f85cefd2a02bc4f0da3a3a87b23f02e64bdded5422b594c1694f1747e3d84f39edb6cba3462755f8354d6872059aae69932d69fdaafa356ccc8b27674226b43d6f37b38dd68621b701d0fe79e3518::aa72d6d59a9df339728ff76285c2c249" target="_blank">Episode 1</a></button>
+                <button id="video"><a style="text-decoration: none;" href="https://cdn.video-leech.pro/c7baf0620a44c98c3f1a7cb0afbc1f7d3b9d8f4f12b5bc1d75129837e341f5d42d7c8df1d37bd697e8d1dbad14ec8c1da93798adcb4bb5d71b740612bc3590d7fe47971dbb9513c905c0028617cf13cc75bd81cd7cbb4cc5e274492e4dce3bee075872fe645bcf79fa5165fdcd4fe9cb::1822939c9264982cf8935804271cb79c" target="_blank">Episode 2</a></button>
+                <button id="video"><a style="text-decoration: none;" href="https://cdn.video-leech.pro/39d84650fccd93ff29f1ec04ff8da8e84eeee8c07baf8a6f1f35d08859605cb3a0e5d56503cc6787d6a29f6bee2097dc868837932ac42695253f92b3b62b266e121698822a98b01252d5b3d5d1231ea65c8157f179f8b55118568fd1778b00b078aac6a99b0c743a06da1ddcb16cd124::2d0e22794181cce6b6da4f7e22e4a3e6" target="_blank">Episode 3</a></button>
+                <button id="video"><a style="text-decoration: none;" href="https://cdn.video-leech.pro/14b97ea32668519ba29e78a698fb4b879c00efeb6120dea719cbac0ee19fd602af0b25249244984c6c5ea0e66f722cd60439c12318e3a179cbf224da9885a9c156d3f6f201ad6e6fde717ee136d4b6ab1742009f202c2c97c8b954daf4d8d71bd1ce7319b96d58485255d546c7ed1dcc::700d5621cba4f58164681ee882ecdf17" target="_blank">Episode 4</a></button>
+                <button id="video"><a style="text-decoration: none;" href="https://cdn.video-leech.pro/31194604297e98bacb92e1cc06abd9b2a74f1b6b0121e5a2e4cc10e5007cbebe9bbbcf7a7836efcc1202f3ca75e2d98fd89b9db8709f62511b4a2e42d2b088c2f90dc9271d8895cf7a76e61117b3f5682dc42beebcfa5a2929f99c1a4a5fd683519ed5c16d88713d5499fb4f8aa8eb91::23872b00c48723f5a950bab1b7c09533" target="_blank">Episode 5</a></button>
+                <button id="video"><a style="text-decoration: none;" href="https://cdn.video-leech.pro/3c3f69f0db5e5b1d294813b382b7f136370bfc56da578cf4b886854d5b32a7bbea5d58a61e884b6ebd1a3225d70322407d779e3f5e06c721733ce9089c7077866571991b437abde524e9d8c5e3f5fac09429ec327c3826c8bc39834c526b88226b5cc0bd5492a3ea84f7076bf1d9ff66::4dc6c0113f8aaa314c6ac275500dfd6f" target="_blank">Episode 6</a></button>
+                <button id="video"><a style="text-decoration: none;" href="https://cdn.video-leech.pro/03dfc9078c0aeafdb74d771c86e5f7d56dcd1ac01e9932b4abd9b25a31e25a1c4b0433426ba137b08eff2f3b3536a29a1303c18cc0a52b311289489774039c528b5e704e1eb0c9c0f288757d5222646809a72ebfc22a077a0eef424da6483e016d0e5733d54a61b880f4fb1f6fa0c24d::e2ba4c6dedd18c0140a7351108e6d147" target="_blank">Episode 7</a></button>
+                <button id="video"><a style="text-decoration: none;" href="https://cdn.video-leech.pro/7900a10b50277b6e1bb197bf05b29c391871d5f0e49a55f3e73386261479ff891b25fb0fcf53c1f51c9c959573b43357047f147fcd1c1ec9103a1e43258b633f50bae95b53fe6244f13e233699f3a05136ac945021f080d765138b5b16938ff01febaa04090c8918e69e87642f3f48c2::443cd46aade60847c9fd6ae4fd90043d" target="_blank">Episode 8</a></button>
+                <button id="video"><a style="text-decoration: none;" href="https://cdn.video-leech.pro/aafdf75cada36b0658e8ce473ea6c174ec7a21cfd9abd7c0a414b21611f1e2811f3634f0dbec039bd4438fdb9ce653aa1986455f2c3b270052d5d7ab0f749c694e19d4ff9fc3f9001a4852699ac53fdd551273ecaa6d617e6a1fdff224333fc16f47f68765c012c828a391cdc3824d46::c8be65294e2a617eba89f56276c6c3a9" target="_blank">Episode 9</a></button>
+                <button id="video"><a style="text-decoration: none;" href="#" target="_blank">All ZIP</a></button>
+                
+                
+            </div>
+            
+        </p> 
+       
+        <div>
+            <h2></h2>
+            <div>
+                <img src="/img/s5.png" alt="#" width="20%">
+                <h3>Season 5 (new)</h3>
+                <button id="video"><a style="text-decoration: none;" href="https://cdn.video-leech.pro/034b0a9359ee6e5243b37ba34fb355791f42e2ffc275c4ac1238b499cfcf067fae5c12a6a887b46ef76be988820619a7dea15abd8cab26aa1a0fdf02c86b9e2761faeb88e3c8006dd7c4a1c98b4196e68f03dc4fd0d371153f766e0274938a0e50d29f936dc005af79ef6d965594411e::e364941eb43995493d1a7700f5606388" target="_blank">Episode 1</a></button>
+                <button id="video"><a style="text-decoration: none;" href="https://cdn.video-leech.pro/08aa0bf29a9136d36772bb8ab2fde0c2f068d0fe1cde52465ea2e181396c62fb8f9aa564ddec5d4234a0ac86c5922026c3fc75aac7a794978f988fe6c6195bd9ce0219aaba38d330528e27c78b613e1af20dc297c3880b3a7604386fe113ffe46713ed61ad48f7721d42b73b0e57b55f::7f95ed16943f3674ce4349f5762dcfaf" target="_blank">Episode 2</a></button>
+                <button id="video"><a style="text-decoration: none;" href="https://cdn.video-leech.pro/1ca2bd9b5ff9a82854a040cd2d3f638f2a6fc58429f4ca701bf195d42e2bb1b7060955c57aaa559a33930651c0273c1ba00592a1396736fa0557995401b9f85920cb2f04af6aa25034dd873ed12a3f0d5307f111e2ec9dee117f699bc8679ea7aed6f190623d855f40a49957b22bdac7::fe705b202e1fa20697eec3a14aca1a2e" target="_blank">Episode 3</a></button>
+                <button id="video"><a style="text-decoration: none;" href="https://cdn.video-leech.pro/aaffc5b1e61a0dd1c998a22d7ab98d89972aae9f2dc6ca1e98c7c14233b36793ad4689fa2a7e22666d574f96e50446ceda806c288a1aca2447a2427870debbe4dc90bae2b467bfca447182286d51115cb512f9d532b94bb197d6a3e06328efde40d0f68c7906da163072c3844aed411c::6d776ee5cb69d1cff54f26edf0233495" target="_blank">Episode 4</a></button>
+                <button id="video"><a style="text-decoration: none;" href="#" target="_blank">Coming Soon</a></button>
+                <button id="video"><a style="text-decoration: none;" href="#" target="_blank">Coming Soon</a></button>
+                <button id="video"><a style="text-decoration: none;" href="#" target="_blank">Coming Soon</a></button>
+                <button id="video"><a style="text-decoration: none;" href="#" target="_blank">All ZIP Coming Soon</a></button>
+                
+                
+            </div>
+            
+        </p> 
+       
+        
+        
     </div>
-    <div id="tc">
-        <a  id="tc" href="terms & conditions.html" target="_blank">Terms & Conditions</a>
-    </div>
-    <div id="design">
-       <p > Design by <a id="dev" href="#">Dev</a></p>
-    </div>
+    
+    <div >
+        <footer class="ftr">
+          
+           
+        <div>
+            <a id="copyr"> Copyright &copy; 2023 WebDev. All rights reserved.
+                Made with ❤️ by Dev Kumar Ghosh</a>
+        </div>
+        <div id="tc">
+            <a  id="tc" href="terms & conditions.html" target="_blank">Terms & Conditions</a>
+        </div>
+        <div id="design">
+           <p > Design by <a id="dev" href="#">Dev</a></p>
+        </div>
 
-    </footer>
-</div>
+        </footer>
+    </div>
 </body>
 </html>
